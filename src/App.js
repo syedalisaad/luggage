@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Home from './Home';
 // import Departures from './Departures';
 // import Arrivals from './Arrivals';
@@ -8,12 +8,13 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import BaggageTrack from './BaggageTrack';
 // import BookService from './BookService';
 
-import Navigation from './Component/Layout/Navigation/Navigation';
+import Navigation from "./Component/Layout/Navigation/Navigation";
+import Footer from "./Component/Layout/Footer/Footer";
 
 const App = () => {
   return (
     <Router>
-      <div >
+      <div>
         <Navigation />
         {/* <Switch>
           <Route exact path="/" component={Home} />
@@ -24,6 +25,8 @@ const App = () => {
           <Route path="/baggage-track" component={BaggageTrack} />
           <Route path="/book-service" component={BookService} />
         </Switch> */}
+
+        <Footer />
       </div>
     </Router>
   );

@@ -1,9 +1,8 @@
-// src/Component/Layout/Navigation/Navigation.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 import { FaAngleDown } from '../../Icon/Icons';
-import logo from '../../../assets/logo.jpeg'; // Adjust the path as needed
+import logo from '../../../assets/logo.jpeg'; 
 
 const Navigation = () => {
   return (

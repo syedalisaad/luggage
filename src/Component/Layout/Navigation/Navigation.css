@@ -1,6 +1,6 @@
 /* src/Component/Layout/Navigation/Navigation.css */
 .airport-nav {
-  background-color: #333;
+  background-color: var(--theme-black-color)	;
   padding: 10px;
 }
 
